@@ -92,3 +92,23 @@ body {
 .drop-hover {
     background-color: #cce5ff !important; /* highlight drop target on hover */
 }
+
+/* Styles for the status classes */
+.status-not-started {
+    background-color: #ffcccc; /* red */
+}
+.status-in-progress {
+    background-color: #ffebcc; /* orange */
+}
+.status-completed {
+    background-color: #ccffcc; /* green */
+}
+
+/* Styling for compact layout with Italian theme */
+.ep-task-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.ep-task-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
