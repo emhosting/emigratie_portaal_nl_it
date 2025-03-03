@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: emigratie-portaal 1.0\n"
+"POT-Creation-Date: 2025-03-03 00:00+0000\n"
+"PO-Revision-Date: 2025-03-03 00:00+0000\n"
+"Language: nl_NL\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Emigratie Portaal Plugin\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Tasks"
+msgstr "Taken"
+
+msgid "Task"
+msgstr "Taak"
+
+msgid "Add New"
+msgstr "Nieuw toevoegen"
+
+msgid "Add New Task"
+msgstr "Nieuwe taak toevoegen"
+
+msgid "Edit Task"
+msgstr "Taak bewerken"
+
+msgid "New Task"
+msgstr "Nieuwe taak"
+
+msgid "View Task"
+msgstr "Taak bekijken"
+
+msgid "Search Tasks"
+msgstr "Taken doorzoeken"
+
+msgid "No tasks found"
+msgstr "Geen taken gevonden"
+
+msgid "No tasks found in Trash"
+msgstr "Geen taken gevonden in de prullenbak"
+
+msgid "All Tasks"
+msgstr "Alle taken"
+
+msgid "Task Archives"
+msgstr "Takenarchief"
+
+msgid "Insert into task"
+msgstr "In taak invoegen"
+
+msgid "Uploaded to this task"
+msgstr "Geüpload naar deze taak"
+
+msgid "Emigratie Tasks"
+msgstr "Emigratie Taken"
+
+msgid "Categories"
+msgstr "Categorieën"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Search Categories"
+msgstr "Categorieën doorzoeken"
+
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+msgid "Edit Category"
+msgstr "Categorie bewerken"
+
+msgid "Update Category"
+msgstr "Categorie bijwerken"
+
+msgid "Add New Category"
+msgstr "Nieuwe categorie toevoegen"
+
+msgid "New Category Name"
+msgstr "Naam van nieuwe categorie"
+
+msgid "My Emigration Checklist"
+msgstr "Mijn Emigratie Checklist"
+
+msgid "Financial"
+msgstr "Financieel"
+
+msgid "completed"
+msgstr "voltooid"
+
+msgid "You have completed %d of %d tasks."
+msgstr "U heeft %d van de %d taken voltooid."
+
+msgid "Open Checklist"
+msgstr "Open checklist"
+
+msgid "Manage your financial tasks and overview here."
+msgstr "Beheer hier uw financiële taken en overzicht."
+
+msgid "View Finances"
+msgstr "Bekijk Financiën"
+
+msgid "Start Date:"
+msgstr "Startdatum:"
+
+msgid "End Date:"
+msgstr "Einddatum:"
+
+msgid "not set"
+msgstr "niet ingesteld"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Emigratie Portaal Settings"
+msgstr "Emigratie Portaal Instellingen"
+
+msgid "Welcome Message"
+msgstr "Welkomstbericht"
+
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
