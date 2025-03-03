@@ -1,0 +1,63 @@
+/* Dashboard page module and progress bar styling */
+.ep-dashboard {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.ep-header {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #009246 0%, #ffffff 33%, #CE2B37 66%, #CE2B37 100%);
+}
+.ep-header .ep-logo {
+    max-height: 50px;
+}
+.ep-module {
+    width: 45%;
+    float: left;
+    background: #ffffff;
+    margin: 2%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.ep-module:nth-of-type(1) {
+    border-top: 8px solid #009246; /* green top border */
+}
+.ep-module:nth-of-type(2) {
+    border-top: 8px solid #CE2B37; /* red top border */
+}
+.ep-module h2 {
+    margin-top: 0;
+}
+.ep-progress-bar {
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+    margin: 10px 0;
+}
+.ep-progress {
+    background-color: #009246; /* green fill */
+    height: 100%;
+}
+.ep-progress-text {
+    font-weight: bold;
+}
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.ep-dashboard::after {
+    content: "";
+    display: table;
+    clear: both;
+}
