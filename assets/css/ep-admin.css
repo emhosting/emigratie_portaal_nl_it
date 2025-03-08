@@ -1,0 +1,173 @@
+/* Algemene stijlen */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+.wrap {
+  padding: 20px;
+}
+
+/* Italiaanse en Toscaanse kleuren */
+:root {
+  --italian-red: #e2725b;
+  --tuscan-green: #8f9779;
+  --tuscan-yellow: #f1c40f;
+  --accent-olive: #6b8e23;
+  --accent-burgundy: #800020;
+}
+
+/* Dashboard */
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--italian-red);
+}
+.dashboard-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.dashboard-card h2 {
+  margin-top: 0;
+  color: var(--accent-burgundy);
+}
+
+/* Checklist en layout voor Admin */
+/* De container verdeelt de pagina in twee kolommen */
+.admin-checklist-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Sidebar categorieën in een wit vlak */
+.sidebar-categories {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  flex: 0 0 300px;
+}
+
+/* Taken sectie rechts naast de sidebar */
+.tasks-section {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Lijst voor categorieën */
+.checklist-items {
+  list-style: none;
+  padding: 0;
+}
+.checklist-items li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+.checklist-items li:hover {
+  background-color: #eaeaea;
+}
+.category-item.active {
+  background-color: var(--tuscan-green);
+  color: #fff;
+}
+
+/* Frontend tasks */
+.frontend-tasks .ep-task {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+.frontend-tasks .ep-task:hover {
+  background-color: #f0f0f0;
+}
+.ep-task h3.task-title {
+  margin: 0 0 10px;
+  color: var(--italian-red);
+}
+.ep-task .task-status {
+  font-weight: bold;
+  color: var(--accent-burgundy);
+}
+
+/* Admin hoofd pagina */
+.admin-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--accent-burgundy);
+}
+.admin-menu {
+  display: flex;
+  gap: 20px;
+}
+
+/* Financiёel */
+.finance-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--tuscan-yellow);
+}
+
+/* Knoppen */
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+.btn-primary {
+  background-color: var(--italian-red);
+}
+.btn-primary:hover {
+  background-color: #c86050;
+}
+.btn-secondary {
+  background-color: var(--tuscan-green);
+}
+.btn-secondary:hover {
+  background-color: #7a8870;
+}
+.btn-delete {
+  background-color: var(--accent-burgundy);
+}
+.btn-delete:hover {
+  background-color: #66001a;
+}
+.btn-edit {
+  background-color: var(--accent-olive);
+}
+.btn-edit:hover {
+  background-color: #556b2f;
+}
+.btn-menu {
+  background-color: var(--italian-red);
+  padding: 12px 16px;
+  font-size: 1rem;
+}
+.btn-menu:hover {
+  background-color: #c86050;
+}
