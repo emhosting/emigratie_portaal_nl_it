@@ -1,3 +1,5 @@
 <?php
-// Functies voor gebruikersacties in de plugin
+function ep_user_actions() {
+    // Gebruikersacties zoals profiel bewerken, wachtwoord wijzigen, etc.
+}
 ?>

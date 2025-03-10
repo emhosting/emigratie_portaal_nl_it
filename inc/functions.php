@@ -1,6 +1,5 @@
 <?php
-// Algemene functies voor Emigratie Portaal
-function ep_get_setting( $key ) {
-    return get_option( 'ep_' . $key );
+function ep_custom_function() {
+    // Voeg hier je custom functies toe
 }
 ?>

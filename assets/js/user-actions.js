@@ -1,4 +1,5 @@
-// Extra JavaScript voor gebruikersacties
-document.addEventListener('DOMContentLoaded', function() {
-    console.log("user-actions.js geladen.");
-});
+(function($){
+    $(document).ready(function(){
+        // Gebruikersacties zoals het bewerken van profielinformatie, wachtwoord wijzigen, etc.
+    });
+})(jQuery);
